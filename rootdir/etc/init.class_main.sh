@@ -56,7 +56,10 @@ case "$baseband" in
                     sed -n 's/^[^:]*modem[^:]*:[[:blank:]]*//p' |
                     sed 's/.*AT.\(.*\)/\1/g' | cut -d \- -f 1`
             if [ ! -z $version ]; then
-                if [ "$version" \< "3.1" ]; then
+                if [ "$version" = "2.3.c8" ]; then
+                    # Still give it a chance to load qcrild.
+                    qcrild_status=true
+                elif [ "$version" \< "3.1" ]; then
                     qcrild_status=false
                 fi
             fi

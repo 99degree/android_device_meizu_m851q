@@ -1,34 +1,33 @@
-Copyright (C) 2019 - The LineageOS Project
+Copyright (C) 2020 - The LineageOS Project
 
-Yandex Phone (codenamed 'Abmer') is a first smartphone from Yandex LLC.
-ODM Arima Communications Corp (Arima Z2).
+Copyright (C) 2020 - 99degree
+
+Meizu E3 is an pre-Treble-Era Android smartphone from Meizu Technology Co., Ltd.
 
 ## Device Picture
-![Yandex Phone](https://avatars.mds.yandex.net/get-bunker/128809/0d4c134eda6d84a04e0283ae8a7ddd8196e2d25b/orig)
+![Meizu E3](https://www-res.flyme.cn/resources/flymeos/upload/phonebase/phone_image_169.png)
 
 ## Device specifications
 
-| Device          | Yandex Phone (Amber) (YNDX-000SB)                |
+| Device          | Meizu E3                                         |
 | --------------: | :----------------------------------------------- |
-| SoC             | Qualcomm Snapdragon 630 (sm630)                  |
+| SoC             | Qualcomm Snapdragon 636 (sdm660)                 |
 | CPU             | 4 x Cortex-A53 @ 2.2GHz + 4x Cortex-A53 @ 1.8GHz |
-| GPU             | Adreno 508                                       |
-| Memory          | 4GB RAM (LPDDR4 @ 1333 MHz)                      |
-| Shipped Android version | 8.1                                      |
-| Current Android version | 9.0                                      |
+| GPU             | Adreno 509                                       |
+| Memory          | 6GB RAM (LPDDR4 @ 1333 MHz)                      |
+| Shipped Android version | 7.1.1                                    |
 | Storage         | 64GB eMMC                                        |
-| Battery         | Non-removable 3050 mAh                           |
-| Dimensions      | 150,1 x 72,5 x 8,3 mm                            |
-| Display         | 5,65" FHD+ 2160 × 1080                           |
-| Rear camera 1   | 16MP, Dual LED flash (s5k3p9sx / s5k3p8sx)       |
-| Rear camera 2   | 5MP (gc5025 / gc5035)                            |
-| Front camera    | 5MP, LED flash (s5k5e2ya)                        |
+| Battery         | Non-removable 3360 mAh                           |
+| Dimensions      | 156,8 x 75 x 7,6 mm                              |
+| Display         | 5,99" FHD+ 2160 × 1080                           |
+| Rear camera 1   | 20MP, Dual LED flash (imx350)                    |
+| Rear camera 2   | 12MP (imx362)                                    |
+| Front camera    | 5MP (s5k4h7yx)                                   |
 | Connectivity    | X12 Modem, DSDV                                  |
-| Accelerometer   | InvenSense ICM-20608                             |
-| Audio codec     | Qualcomm Aqstic WCD9340                          |
-| Fingerprint     | ELAN                                             |
-| Geomagnetic     | GMEMS GMA303                                     |
-| Hall            | ANPEC APX9136                                    |
-| NFC             | NXP PN553                                        |
-| Proximity&Light | STK3x1x                                          |
-| TouchScreen     | Himax DJN CIDFF00 / Himax Truly CIDFF04          |
+| Accelerometer   | InvenSense (?) / LSM6DS3                         |
+| Audio codec     | Internal + TAS2560 SmartAmp                      |
+| Fingerprint     | Goodix                                           |
+| Geomagnetic     | QMCX983 / AF8133J / mmc3680                      |
+| Hall            | BU52053NVX                                       |
+| Proximity&Light | EPL259X                                          |
+| TouchScreen     | Samsung                                          |
